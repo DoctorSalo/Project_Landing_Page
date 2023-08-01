@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    background-color: #c8ac8b;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header .top {
+    padding-bottom: 30px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 20px;
+
+    margin-top: -37px;
+}
+
+a {
+    text-decoration: none;
+    color: #3d3320;
+}
+
+.header img {
+    width: 150px;
+    float: right;
+    margin-top: -140px;
+    padding-bottom: 50px;
+}
+
+button {
+    background-color: #3d3320a1;
+    border: none;
+    border-radius: 6px;
+    color: #c8ac8b;
+    padding: 6px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+h1 {
+    padding-bottom: 0px;
+}
+
+.middle .description {
+    color: #3d3320;
+    max-width: 300px;
+    padding-top: 0px;
+}
+
+.main {
+    background-color: #dad7d0;
+}
+
+.main .images {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 6px;
+}
+
+.main h3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 8px;
+}
+
+.main img {
+    width: 100px;
+    height: auto;
+    border: solid #3d3320;
+    border-radius: 6px;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-bottom: 60px;
+}
+
+.sub .subtext {
+    text-align: center;
+    max-width: 90px;
+}
+
+.quotew {
+    background-color: #c8ac8b;
+    color: #3d3320;
+    padding-right: 140px;
+    padding-left: 140px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.who {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.add {
+    padding-top: 25px;
+    background-color: #3d3320a1;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    border-radius: 6px;
+    color: ;
+}
+
+.scam {
+    color: black;
+    font-weight: bold;
+    
+}
+
+.notscam {
+    color: #3d3320;
+}
+
+.add button {
+    border: solid white;
+    border-width: 1px;
+    background-color: #3d332000;
+    color: black;
+    font-weight: bold;
+}
+
+.wtf {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: -35px;
+    padding-bottom: 25px;
+}
+
+.footer {
+    background-color: #c8ac8b;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
